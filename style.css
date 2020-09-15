@@ -1,10 +1,14 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(230, 173, 206);
 }
 
 h1 {
   color: white;
   text-align: center;
+}
+header{
+  background-color: rgb(14, 13, 13);
+  -webkit-text-fill-color:  white;
 }
 
 p {
@@ -15,4 +19,13 @@ ol {
   list-style-type: upper-roman;
 }
 ol ol {
-  list-style-type: lower-roman;
+  list-style-type: lower-roman;}
+  table {
+  border-collapse: collapse;
+  width: 100%;
+  font: 1.5em;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
