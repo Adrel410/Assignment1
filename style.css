@@ -12,7 +12,7 @@ header{
 }
 
 p {
-  font-family: verdana;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
 }
 ol {
@@ -20,12 +20,18 @@ ol {
 }
 ol ol {
   list-style-type: lower-roman;}
-  table {
+table {
   border-collapse: collapse;
   width: 100%;
   font: 1.5em;
 }
-
+th {
+  color: white;
+  background-color: black;
+}
+td {
+   background-color: lightblue;
+}
 table, th, td {
   border: 1px solid black;
 }
